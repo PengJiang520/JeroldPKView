@@ -2,7 +2,7 @@
 //  PKView.m
 //  动态圆柱
 //
-//  Created by liudj on 2019/5/27.
+//  Created by jerold on 2019/5/27.
 //  Copyright © 2019 CodingFire. All rights reserved.
 //
 
