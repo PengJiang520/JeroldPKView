@@ -1,6 +1,6 @@
 # JeroldPKView
 PK动画
-![演示](http://ww4.sinaimg.cn/large/006tNc79ly1g3qcwjueyhg30f00qoad8.gif)
+![](http://ww1.sinaimg.cn/large/006tNc79ly1g4d77szk9tg30f00qox37.gif)
 ### 1.需求：
 1.两边的条状颜色为渐变色
 2.动画方向如上图所示，从两边往中间延展
