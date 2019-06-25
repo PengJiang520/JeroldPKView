@@ -78,7 +78,7 @@
     shapLayerRight.path = [self getPathByPoints:pointArray1].CGPath;
     self.rightLayer.mask = shapLayerRight;
     
-//    [self updateAnimation];
+    [self updateAnimation];
     
 }
 
