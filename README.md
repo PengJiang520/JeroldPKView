@@ -47,7 +47,7 @@ CAGradientLayer可以实现渐变色
 
 ```
 2.动画
-要实现这个从两边往中间延展的动画，我用的是CAAnimationGroup，两个CABasicAnimation作为一组动画。一个是CAGradientLayer的position位置动画，还有一个是bounds动画，两个合成一组，就能实现这个需求。关键点是，CABasicAnimation的position变化是以layer的锚点也就是中心点为对象的。
+要实现这个从两边往中间延展的动画，我用的是CAAnimationGroup，两个CABasicAnimation作为一组动画。一个是CAGradientLayer的position位置动画，~~还有一个是bounds动画~~(经过一番折腾，我发现根本不需要bounds动画，而且加入bounds动画会导致左边的layer在动画过程中形变)，就能实现这个需求。关键点是，CABasicAnimation的position变化是以layer的锚点也就是中心点为对象的。
 
 3.不规则图形
 要画出左右layer的不规则形状，我们拆分一下，view的外轮廓用切圆角实现，那么剩下就是如何画出中间部分的斜边。用关键点画贝塞尔线的方式来实现，然后用CAShapeLayer作为左右layer的mask
