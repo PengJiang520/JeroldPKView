@@ -11,7 +11,8 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface PKView : UIView
-- (instancetype)initWithTotalNum:(NSInteger)total votedNum:(NSInteger)votedNum frame:(CGRect)frame;
+- (instancetype)initWithLeftRate:(float)leftRate frame:(CGRect)frame;
+- (void)updateAnimation;//动画更新
 @end
 
 NS_ASSUME_NONNULL_END
